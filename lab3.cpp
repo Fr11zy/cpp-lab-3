@@ -17,7 +17,7 @@ int main()
 
 int find_difference(int i, int summa1, int summa2)
 {
-    if ((i==n) || (all_plates[i]==0))
+    if (i==n)
         return abs(summa1-summa2);
     else
     {
